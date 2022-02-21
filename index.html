@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section id="toDo" class="vh-100 d-flex align-items-center justify-content-center">
+        <div class="border border-dark rounded-1 p-4 bg-light">
+            <h3>Todo List</h3>
+            <div class="d-flex flex-nowrap my-2">
+                <input type="text" placeholder="Add Your New Todo" class="form-control me-1" id="taskInput">
+                <button disabled id="add" class="btn btn-danger me-1"><i class="fa-solid fa-plus"></i></button>
+                <button id="edit" class="btn btn-danger"><i class="fa-solid fa-pen"></i></button>
+            </div>
+            <div id="toDoList" class="list-group">
+            </div>
+            <div id="footer" class="d-flex justify-content-between align-items-center my-2">
+                <p class="my-0">You have <strong id="count"></strong> pending tasks</p>
+                <button disabled id="clearAll" class="btn btn-danger">Clear All</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>

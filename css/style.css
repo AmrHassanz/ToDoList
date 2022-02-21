@@ -1,0 +1,39 @@
+#toDoList .del{
+    transform: translateX(100%);
+    transition: all .3s ease-in-out;
+    position: relative;
+    z-index: 12;
+}
+#toDoList .my-span{
+    position: relative;
+    z-index: 12;
+}
+#toDoList .my-btn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    z-index: 10;
+}
+#toDoList .active{
+    background-color: rgba(102, 205, 171, 0.411);
+}
+#toDoList .item:hover .del{
+    transform: translateX(0);
+}
+#toDoList .item{
+    cursor: pointer;
+}
+#toDo{
+    background-image: url(../images/todo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.task{
+    background-color: rgba(11, 245, 167, 0.432);
+}
+
